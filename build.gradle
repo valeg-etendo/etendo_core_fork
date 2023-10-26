@@ -34,7 +34,7 @@ jandex {
  * This dependency version is equal to the one located in the 'lib/runtime' dir
  */
 dependencies {
-    jandex 'org.jboss:jandex:2.0.5.Final'
+    jandex 'org.jboss:jandex:3.1.5'
 
 }
 
@@ -215,7 +215,7 @@ dependencies {
     implementation('com.etendoerp:YUIAnt:1.0.0') { transitive = false }
     implementation('rhino:js:1.6R7') { transitive = false }
     implementation('org.apache.tomcat:tomcat-jdbc:9.0.37') { transitive = false }
-    implementation('org.jboss:jandex:2.0.5.Final') { transitive = false }
+    implementation('org.jboss:jandex:3.1.5') { transitive = false }
     implementation('org.apache.tomcat:tomcat-juli:9.0.37') { transitive = false }
 
     // test
