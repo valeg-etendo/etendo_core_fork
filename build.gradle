@@ -7,7 +7,7 @@ plugins {
     id 'groovy'
     id "me.champeau.jmh" version "0.6.5"
     id 'com.etendoerp.gradleplugin' version 'latest.release'
-    id 'org.kordamp.gradle.jandex' version '0.11.0'
+    id 'org.kordamp.gradle.jandex' version '1.1.0'
 }
 compileJava.options.encoding = "UTF-8"
 apply from: 'tests.gradle'
