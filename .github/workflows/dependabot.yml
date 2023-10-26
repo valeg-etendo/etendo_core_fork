@@ -1,3 +1,7 @@
+on:
+  push:
+    branches:
+      - epic/EM-267
 version: 2
 updates:
   - package-ecosystem: "gradle"
