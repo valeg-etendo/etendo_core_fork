@@ -126,7 +126,7 @@ def whiteSyncCoreList = [
 ]
 dependencies {
     jmh group: 'org.openjdk.jmh', name: 'jmh-generator-annprocess', version: '1.28'
-    jmh 'org.jboss.weld.se:weld-se-core:3.1.8.Final'
+    jmh 'org.jboss.weld.se:weld-se-core:5.1.2.Final'
     jmhAnnotationProcessor('org.openjdk.jmh:jmh-generator-annprocess:1.28')
     annotationProcessor('org.openjdk.jmh:jmh-generator-annprocess:1.28')
 
