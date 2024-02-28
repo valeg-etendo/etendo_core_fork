@@ -848,10 +848,10 @@ public class ConfigurationApp extends org.apache.tools.ant.Task {
     if (timeFormat.equals("12h")) {
       if (dateFormat.substring(0, 1).equals("D")) {
         replaceProperties.put(PREFIX_DATE_TIME_FORMAT_JAVA, "dd" + dateSeparator + "MM"
-            + dateSeparator + "yyyy hh" + timeSeparator + "mm" + timeSeparator + "ss a");
+            + dateSeparator + "YYYY HH" + timeSeparator + "mm" + timeSeparator + "ss a");
       } else if (dateFormat.substring(0, 1).equals("M")) {
         replaceProperties.put(PREFIX_DATE_TIME_FORMAT_JAVA, "MM" + dateSeparator + "dd"
-            + dateSeparator + "yyyy hh" + timeSeparator + "mm" + timeSeparator + "ss a");
+            + dateSeparator + "YYYY hh" + timeSeparator + "mm" + timeSeparator + "ss a");
       } else if (dateFormat.substring(0, 1).equals("Y")) {
         replaceProperties.put(PREFIX_DATE_TIME_FORMAT_JAVA, "yyyy" + dateSeparator + "MM"
             + dateSeparator + "dd hh" + timeSeparator + "mm" + timeSeparator + "ss a");
@@ -859,10 +859,10 @@ public class ConfigurationApp extends org.apache.tools.ant.Task {
     } else if (timeFormat.equals("24h")) {
       if (dateFormat.substring(0, 1).equals("D")) {
         replaceProperties.put(PREFIX_DATE_TIME_FORMAT_JAVA, "dd" + dateSeparator + "MM"
-            + dateSeparator + "yyyy HH" + timeSeparator + "mm" + timeSeparator + "ss");
+            + dateSeparator + "YYYY HH" + timeSeparator + "mm" + timeSeparator + "ss");
       } else if (dateFormat.substring(0, 1).equals("M")) {
         replaceProperties.put(PREFIX_DATE_TIME_FORMAT_JAVA, "MM" + dateSeparator + "dd"
-            + dateSeparator + "yyyy HH" + timeSeparator + "mm" + timeSeparator + "ss");
+            + dateSeparator + "YYYY HH" + timeSeparator + "mm" + timeSeparator + "ss");
       } else if (dateFormat.substring(0, 1).equals("Y")) {
         replaceProperties.put(PREFIX_DATE_TIME_FORMAT_JAVA, "yyyy" + dateSeparator + "MM"
             + dateSeparator + "dd HH" + timeSeparator + "mm" + timeSeparator + "ss");
